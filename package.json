@@ -1,0 +1,20 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "its server for ichat application ",
+  "main": "index.js",
+  "scripts": {
+    
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Vaibhav",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.4.0"
+   
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
